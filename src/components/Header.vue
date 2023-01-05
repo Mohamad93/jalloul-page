@@ -36,10 +36,7 @@ p{
   color: white;
 }
 
-/* @media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-  }
+@media (min-width: 992px) {
   header.masthead h1 {
     font-size: 3rem;
   }
@@ -48,6 +45,6 @@ p{
   header.masthead h1 {
     font-size: 3.5rem;
   }
-} */
+}
 
 </style>
