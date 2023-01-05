@@ -1,7 +1,7 @@
 <template>
     <header class="masthead">
         <div id="title">
-            <h1>Jalloul Consulting</h1>
+            <h1>Jalloul</h1>
         </div>
         <div>
             <p>Let's build your <em>ideas</em></p>

@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="copyright">
-        © Copyright <strong>Jalloul Consulting</strong>. All Rights Reserved.
+        © Copyright <strong>Jalloul</strong>. All Rights Reserved.
       </div>
     </div>
   </footer>
