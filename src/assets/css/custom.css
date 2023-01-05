@@ -1,0 +1,18 @@
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  /* font-family: 'Cinzel', serif; */
+  text-align: center;
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.section-title-divider {
+    width: 100px;
+    height: 3px;
+    background: #61412e;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
