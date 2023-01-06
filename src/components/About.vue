@@ -1,11 +1,11 @@
 <template>
-  <div class="about">
+  <div class="content-wrap">
     <div class="title">
       <h1>About</h1>
       <div class="section-title-divider"></div>
     </div>
     <div class="content">
-      <div class="about-text">
+      <div>
         <img src="../assets/img/about/mjalloul.jpg" />
         <p>
           Mohamad Jalloul is a senior developer with 5 years of experience with a master’s degree in
@@ -31,39 +31,36 @@
 </template>
 
 <style scoped>
-.about {
-  justify-self: center;
-  align-content: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-}
-
-.content>div {
-  background-color: #f1f1f1;
-  padding: 20px;
+.content > div {
   width: 980px;
-  border-radius: 7px;
-  /* color: #666666; */
 }
 
 img {
+  display: block;
   justify-content: center;
   height: 380px;
   width: auto;
-  float: left;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 992px) {
+  p{
+    margin:10px;
+  }
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  img {
+    float: left;
+    margin-right: 20px;
+  }
+  p:first-of-type {
+    margin-top: 1.25em;
+  }
 }
 </style>

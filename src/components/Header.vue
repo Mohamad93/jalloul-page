@@ -1,7 +1,7 @@
 <template>
     <header class="masthead">
         <div id="title">
-            <h1>Jalloul Consulting</h1>
+            <h1>Jalloul <br>Consulting</h1>
         </div>
         <div>
             <p>Let's build your <em>ideas</em></p>
@@ -11,20 +11,21 @@
 
 
 <style scoped>
-header.masthead {
+.masthead {
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   height: 100vh;
+  max-height: 100%
 }
-header.masthead h1 {
+
+.masthead h1 {
   font-size: 2.25rem;
   font-family: 'Playfair Display SC', serif;
   /* font-family: 'Cinzel', serif; */

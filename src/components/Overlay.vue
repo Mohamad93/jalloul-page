@@ -40,4 +40,11 @@ export default {
     justify-content: center;
     color: white;
 }
+
+@media (max-width: 992px) {
+  .back-to-top {
+    display: none;
+  }
+}
+
 </style>
