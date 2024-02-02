@@ -5,14 +5,6 @@
       <div class="section-title-divider"></div>
     </div>
     <div class="content">
-      <!-- <div class="contact-info">
-        <p><span class="icon"><i class="fa-solid fa-envelope"></i></span><a href="mailto:xxx@outlook.com">xxx@outlook.com</a></p>
-        <p><span class="icon"><i class="fa-solid fa-phone"></i></span><a href="tel:+4798876650">+47 123 45 678</a></p>
-        <p><span class="icon"><i class="fa-solid fa-location-dot"></i></span>Fredrikstad, Norway</p>
-        <div class="frame">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4898.779947196942!2d10.931069216433956!3d59.21743617563768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sno!4v1655044119530!5m2!1sen!2sno" width="100%" height="100%" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div> -->
       <div>
         <form>
           <input type="text" name="name" class="form-control" id="name" placeholder="Your name" required>
